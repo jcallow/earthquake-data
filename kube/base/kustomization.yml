@@ -1,0 +1,8 @@
+resources:
+  - deployment.yml
+#  - egress.yml
+  - ingress.yml
+#  - resource-quota.yml
+  - service.yml
+
+namespace: earthquakes
